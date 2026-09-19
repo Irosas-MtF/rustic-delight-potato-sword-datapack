@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_potato_slices"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "minecraft:potato"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "rusticdelight:potato_slices"
+      }
+    }
+  ],
+  "tool": "#minecraft:swords"
+}
